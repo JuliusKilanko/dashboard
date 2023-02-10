@@ -1,0 +1,77 @@
+.app.dark{
+    background-color: #111;
+    color: rgba(128, 128, 128, 0.959);
+
+    .grid{
+        stroke:rgba(128, 128, 128, 0.555);
+    }
+
+    .table{
+        background-color: black;
+        
+
+
+        .tableCell{
+            color: gray;
+        }
+    }
+
+    .navbar{
+        color: rgba(128, 128, 128, 0.959);
+
+
+        .searchbar{
+            color: rgba(128, 128, 128, 0.959);
+            
+
+            input{
+                color: white;
+            }
+        }
+    }
+
+    .sidebar{
+        background-color: #111;
+        color: rgba(128, 128, 128, 0.959);
+
+        .top{
+            
+
+            .logo{
+                color: rgba(128, 128, 128, 0.959);
+            }
+        }
+        hr{
+            border-color: rgba(128, 128, 128, 0.959);
+        }
+        .center{
+
+            li{
+
+                &:hover{
+                    background-color: #333;
+                }
+
+                .icon{
+                    color: gray;
+                }
+            }
+        }
+    }
+
+    .new{
+
+        form{
+
+            input{
+                background-color: transparent;
+                color: gray;
+                
+
+                &:focus{
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}

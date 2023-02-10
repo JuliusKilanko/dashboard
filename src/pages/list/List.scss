@@ -1,0 +1,11 @@
+.lists{
+    display: flex;
+
+    .side{
+        flex: 1;
+    }
+
+    .listContainers{
+        flex: 6;
+    }
+}
